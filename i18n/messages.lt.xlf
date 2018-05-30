@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en-EN" target-language="LT-lt" datatype="plaintext" original="commission.php">
+        <body>
+            <trans-unit id="missingArgument" xml:space="preserve">
+                <source>missingArgument</source>
+                <target>Naudojimas: php commission.php -f /kelias/iki/csv/failo</target>
+            </trans-unit>
+            <trans-unit id="fileNotFound" xml:space="preserve">
+                <source>fileNotFound</source>
+                <target>Failas %path% neegzistuoja arba yra nenuskaitomas</target>
+            </trans-unit>
+            <trans-unit id="invalidFormat" xml:space="preserve">
+               <source>invalidFormat</source>
+               <target>Duomenys faile %path% nėra CSV formatu</target>
+            </trans-unit>
+            <trans-unit id="currencyNotSupported" xml:space="preserve">
+               <source>currencyNotSupported</source>
+               <target>%currency% valiuta nepalaikoma</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

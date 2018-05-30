@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="demo.ext">
+        <body>
+            <trans-unit id="missingArgument" xml:space="preserve">
+                <source>missingArgument</source>
+                <target>Usage: php commission.php -f /path/to/csv/file</target>
+            </trans-unit>
+            <trans-unit id="fileNotFound" xml:space="preserve">
+                <source>fileNotFound</source>
+                <target>File %path% does not exist or is unreadable</target>
+            </trans-unit>
+            <trans-unit id="invalidFormat" xml:space="preserve">
+               <source>invalidFormat</source>
+               <target>Data in file %path% is not in CSV format</target>
+            </trans-unit>
+            <trans-unit id="currencyNotSupported" xml:space="preserve">
+               <source>currencyNotSupported</source>
+               <target>%currency% is not a supported currency</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

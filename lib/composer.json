@@ -1,0 +1,23 @@
+{
+    "name": "vendor/paysera",
+    "description": "Demo",
+    "authors": [
+        {
+            "name": "Linas",
+            "email": "linas.sw@gmail.com"
+        }
+    ],
+    "license": "GPL-2.0",
+    "require": {
+        "symfony/finder": "^3.1",
+        "symfony/yaml": "^3.1",
+        "symfony/var-dumper": "^3.1",
+        "symfony/translation": "^3.1",
+        "symfony/config": "^3.1",
+        "league/csv": "^8.1",
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {"Demo\\": "App/"}
+    }
+}

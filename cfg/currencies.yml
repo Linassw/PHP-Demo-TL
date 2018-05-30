@@ -1,0 +1,18 @@
+currencies:
+    EUR:
+        subunit:
+            rate: 0.01
+            name: cent
+    USD:
+        subunit:
+            rate: 0.01
+            name: cent
+    JPY:
+        subunit: #for the purposes of this application we need only the smallest unit
+            rate: 0.001
+            name: rin
+default_currency: EUR
+rates:
+    EUR: 
+        USD: 1.1497
+        JPY: 129.53
